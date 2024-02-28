@@ -70,7 +70,11 @@ font-size: 25px;
 
 }
 
-
+dl{
+	color: papayawhip;
+	font-size: 25px;
+	text-align:left;
+}
  
     
     li{   
