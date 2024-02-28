@@ -1,10 +1,11 @@
-
 body{
 
-text-align: center;
-font-family: monospace;
-font-style: bold;
-  background-image: linear-gradient(cornflowerblue, orchid, cornflowerblue);
+	text-align: center;
+	font-family: monospace;
+	font-style: bold;
+	width:99%; height: 100%;
+  	background-image: linear-gradient(cornflowerblue, orchid, cornflowerblue);
+	
 
 }
 
@@ -45,8 +46,12 @@ text-align: center;
     }
 
 
-    h2{ width: 400px;
-      float: inline-start;
+    h2{ 
+
+   	width: 15rem;
+	height: 2rem;
+	text-align: center;
+	
       color: orchid;
       background-color: midnightblue;
       padding: 2%;
@@ -70,15 +75,39 @@ font-size: 25px;
     
     li{   
     color: white;
-     padding: 1%;
-      border: 3px double;
-      border-top: dotted 5px;
-       margin-bottom: 3%;
-      display: inline-block;
+    padding: 1%;
+    border: 3px double;
+    border-top: dotted 5px;
+margin:0 42.5% 0;
+ display: inline-block;
       border-radius: 75px 75px; 
+	
      
 }
 
 
- 
- 
+
+
+footer {
+    background-color: black;
+    color: pink;
+    text-align: center;
+    padding: 2%; 
+    bottom: 0;
+    width: 95%;
+}
+
+.intro{
+	float: inline-start;
+	margin:0 43% 0;
+}
+
+#logo{
+	width: 15rem; height: 5rem;
+	
+}
+
+.animated-gif{
+	width: 280px;
+	height: 180px;
+]
