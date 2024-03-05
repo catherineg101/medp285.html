@@ -1,0 +1,26 @@
+body{
+            font-family: monospace;
+            overflow: hidden;
+            background-image: url("images/arcticlandsscape.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+}
+
+header{
+            color: royalblue;
+            text-align: center;
+        }
+        
+        #catherine{
+            position: absolute;
+            right: 50%;
+           transform: rotate(5deg);
+
+        }
+
+    
+
+
+        
+        
