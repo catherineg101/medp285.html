@@ -13,9 +13,9 @@ header{
         }
         
         #catherine{
-            position: fixed;
+            position: sticky;
             
-            left: 55%;
+            left: 200;
 
         }
 
