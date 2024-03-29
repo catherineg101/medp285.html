@@ -1,70 +1,119 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html style="font-size: 100;">
-  <head>
-    <meta charset="utf-8">
-    <title>Catherine Garcia Films</title>
 
+<head>
+  <meta charset="utf-8">
+  <title>Catherine Garcia Films</title>
 
-<link rel="stylesheet" type="text/css"
-href="../styles/style.css">
+  <link rel="stylesheet" type="text/css" href="../styles/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap">
 
-  </head>
-  <body style="text-align: center;">
-  	<header>
-  		 <h1> Favorite Films</h1>  
-
-  	<img src="https://static.vecteezy.com/system/resources/previews/001/195/058/non_2x/filmstrip-png.png" width="300.px" height="100.px" alt="film roll" >
-
-<a href="https://letterboxd.com"><img id="logo" src="../images/letterboxd.png" alt="letterboxd"></a>
-	
-    </header>
-
-  	<main>
-     
-   
-   
- 
-
-   <h2> Horror Films </h2>
-   <p>I love watching horror movies, no matter how gritty they may be. They are super fun, and the campier, the better! Some of my favorites include...</p>
-
-<ol type="i">
-    <img class="animated-gif" src="https://i.gifer.com/Dd8s.gif" alt="Ms.45">
-   <li>MS .45</li>
-
-   <img class="animated-gif" src="https://25.media.tumblr.com/01bab66976bd4a23f757d24368123eb2/tumblr_miuhgziZGo1s3afkyo1_r1_500.gif" alt="Texas Chainsaw Massacre">
-   <li>Texas Chainsaw Massacre</li>
-
-
-   <img class="animated-gif" src="https://64.media.tumblr.com/29cdbfcdcf3164ebb9331efa7c1cb871/13b7bc6f144762ea-0e/s540x810/17eda16755e4524b255441d26598dca3e07ba0a0.gif"alt="House of 1000 Corpses"> <li>House of 1000 Corpses</li>
-
-   </ol>
-   
-  <h2>Foreign Films</h2>
-  <p>I love watching foreign films to discover hidden gems that aren't well-known to immerse myself in different languages and cultures! Some of my favorites include...</p>
-<ol type="i">
-   <img class="animated-gif" src="https://64.media.tumblr.com/55d6ff355c400cc871e3993f3dd019f7/583e9da44ba95d37-c5/s540x810/06780caa54622ce95a3ea443a2e559c46f92da0b.gifv" alt="Y tu mamá también"> <li>Y tu mamá también</li>
-
-
-   <img class="animated-gif" src="https://ic.pics.livejournal.com/shahnazarova/18179704/132375/original.gif" alt="Sidewalls"> 
-         <li>Sidewalls</li>
+  <style>
     
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
-   <img class="animated-gif" src="https://i.gifer.com/ElyM.gif" alt="Y tu mamá también"> <li>City Of God</li>
-    
+    h2 {
+      margin-top: 20px;
+    }
+
+    ol {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 0;
+      list-style-type: none;
+      justify-content: center;
+    }
+
+
+ ul li a {
+      display: block;
+      padding: 29px;
+      color: white;
+      text-decoration: none;
+      border: 2px solid black;
+      background-color: black;
+    }
+
+    li {
+      text-align: center;
+    }
+
+
+    .animated-gif {
+      width: 100%;
+      height: auto;
+    }
+
+    footer {
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body style="text-align: center;">
+  <header>
+    <h1> Favorite Films</h1>
+    <img src="https://static.vecteezy.com/system/resources/previews/001/195/058/non_2x/filmstrip-png.png" width="300.px" height="100.px" alt="film roll">
+    <a href="https://letterboxd.com"><img id="logo" src="../images/letterboxd.png" alt="letterboxd"></a>
+  </header>
+
+  <main>
+    <h2> Horror Films </h2>
+    <p>I love watching horror movies, no matter how gritty they may be. They are super fun, and the campier, the better! Some of my favorites include...</p>
+
+    <ol type="i">
+      <li>
+        <img class="animated-gif" src="https://i.gifer.com/Dd8s.gif" alt="Ms.45">
+        <div>MS .45</div>
+      </li>
+
+      <li>
+        <img class="animated-gif" src="https://25.media.tumblr.com/01bab66976bd4a23f757d24368123eb2/tumblr_miuhgziZGo1s3afkyo1_r1_500.gif" alt="Texas Chainsaw Massacre">
+        <div>Texas Chainsaw Massacre</div>
+      </li>
+
+      <li>
+        <img class="animated-gif" src="https://64.media.tumblr.com/29cdbfcdcf3164ebb9331efa7c1cb871/13b7bc6f144762ea-0e/s540x810/17eda16755e4524b255441d26598dca3e07ba0a0.gif" alt="House of 1000 Corpses">
+        <div>House of 1000 Corpses</div>
+      </li>
     </ol>
 
-   
-   <ul style="list-style-type: none;">
+    <h2>Foreign Films</h2>
+    <p>I love watching foreign films to discover hidden gems that aren't well-known to immerse myself in different languages and cultures! Some of my favorites include...</p>
+    <ol type="i">
+      <li>
+        <img class="animated-gif" src="https://64.media.tumblr.com/55d6ff355c400cc871e3993f3dd019f7/583e9da44ba95d37-c5/s540x810/06780caa54622ce95a3ea443a2e559c46f92da0b.gifv" alt="Y tu mamá también">
+        <div>Y tu mamá también</div>
+      </li>
+
+      <li>
+        <img class="animated-gif" src="https://ic.pics.livejournal.com/shahnazarova/18179704/132375/original.gif" alt="Sidewalls">
+        <div>Sidewalls</div>
+      </li>
+
+      <li>
+        <img class="animated-gif" src="https://i.gifer.com/ElyM.gif" alt="Y tu mamá también">
+        <div>City Of God</div>
+      </li>
+    </ol>
+
+    <ul>
       <li><a href="../index.html">Home</a></li>
       <li><a href="./music.html">Music</a></li>
-    </ul> 
-
-    </main>
-    <footer>
+    </ul>
+  </main>
+  <footer>
     Copyright 2024
-   </footer>
-     
-  </body>
+  </footer>
+
+</body>
+
 </html>
+
 

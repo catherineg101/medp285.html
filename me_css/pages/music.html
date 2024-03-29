@@ -1,66 +1,120 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html style="font-size: 100;">
-  <head>
-    <meta charset="utf-8">
-    <title>Catherine Garcia Music</title>
+<head>
+  <meta charset="utf-8">
+  <title>Catherine Garcia Music</title>
+  <link rel="stylesheet" type="text/css" href="../styles/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap">
 
-    <link rel="stylesheet" type="text/css"
-href="../styles/style.css">
-  </head>
+  <style>
+ main {
+    
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content: center;
+      padding: 20px;
+    }
 
-  <body>
-  	<header>
-  		 <h1>Favorite Music</h1>
-  	 <img src="https://www.pngall.com/wp-content/uploads/2016/07/Music.png" width= "300.px" height="100.px" alt="music notes">
+    section {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
 
-    </header>
-  	<main>
+    #box {
+      border: 2px solid black;
+      padding: 20px;
+      margin: 0 auto; 
+      max-width: 800px; 
+      text-align: center;
+    }
 
-   <p>I listen to music on many platforms. I listen to music on Spotify and Youtube. I play the guitar and produce music. My favorite genres of music: Metal, Rap, Rock, Experimental, Soul and Latin </p>
+    ol {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      list-style: none;
+      padding: 0;
+      margin: 0 auto; 
+      max-width: 1100px; 
+    }
+ ul li a {
+      display: block;
+      padding: 29px;
+      color: white;
+      text-decoration: none;
+      border: 2px solid black;
+      background-color: black;
+    }
 
-<dl>
-  <dt>Spotify</dt>
-  <dd> I use Spotify most of the time. I find it the most convenient way to listen to my music on the go.</dd>
-	<dt>Youtube</dt>
-	<dd> I use Youtube to watch the visuals that the artist assigned to the songs. I like to "see" and listen to the music at the same time.</dd>
-</dl>
+    li {
+      text-align: center;
+    }
 
-   <h2>Favorite artists </h2>
- 
-   <ol type="i">
-    <img class="animated-gif" src="https://i.makeagif.com/media/12-04-2015/TP12Rg.gif" width="283px" height="170.px" alt="Arca">
-    <li><a href="https://open.spotify.com/artist/4SQdUpG4f7UbkJG3cJ2Iyj">Arca</a></li>
+    img.animated-gif {
+      width: 100%; 
+      height: auto;
+    }
 
-<img class="animated-gif" src="https://i.imgur.com/1vVB4qt.gif" width="283px" height="170.px" alt="Tool">
-    <li><a href="https://open.spotify.com/artist/2yEwvVSSSUkcLeSTNyHKh8">Tool</a></li>
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      width: 100%; 
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Favorite Music</h1>
+    <img src="https://www.pngall.com/wp-content/uploads/2016/07/Music.png" width="300px" height="100px" alt="music notes">
+  </header>
+  <main>
+    <p>I listen to music on many platforms. I listen to music on Spotify and Youtube. I play the guitar and produce music. My favorite genres of music: Metal, Rap, Rock, Experimental, Soul and Latin </p>
+    <dl>
+      <dt>Spotify</dt>
+      <dd> I use Spotify most of the time. I find it the most convenient way to listen to my music on the go.</dd>
+      <dt>Youtube</dt>
+      <dd> I use Youtube to watch the visuals that the artist assigned to the songs. I like to "see" and listen to the music at the same time.</dd>
+    </dl>
+    <h2>Favorite artists</h2>
+    <ol type="i">
+      <li>
+        <img class="animated-gif" src="https://i.makeagif.com/media/12-04-2015/TP12Rg.gif" alt="Arca">
+        <a href="https://open.spotify.com/artist/4SQdUpG4f7UbkJG3cJ2Iyj">Arca</a>
+      </li>
+      <li>
+        <img class="animated-gif" src="https://i.imgur.com/1vVB4qt.gif" alt="Tool">
+        <a href="https://open.spotify.com/artist/2yEwvVSSSUkcLeSTNyHKh8">Tool</a>
+      </li>
+      <li>
+        <img class="animated-gif" src="https://i.gifer.com/Kfq7.gif" alt="Death Grips">
+        <a href="https://open.spotify.com/artist/5RADpgYLOuS2ZxDq7ggYYH">Death Grips</a>
+      </li>
+      <li>
+        <img class="animated-gif" src="https://64.media.tumblr.com/17594328b6cc87d5498bf37fa6f171a6/eb4c7f3442372515-78/s540x810/7f8963564b976621098af1b862ae5df654e5d32c.gif" alt="Björk">
+        <a href="https://open.spotify.com/artist/7w29UYBi0qsHi5RTcv3lmA">Björk</a>
+      </li>
+      <li>
+        <img class="animated-gif" src="https://i.gifer.com/Vdp6.gif" alt="The Strokes">
+        <a href="https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V">The Strokes</a>
+      </li>
+      <li>
+        <img class="animated-gif" src="https://media1.tenor.com/m/_HbXA31p6XUAAAAd/caifanes.gif" alt="Caifanes">
+        <a href="https://open.spotify.com/artist/1GImnM7WYVp95431ypofy9">Caifanes</a>
+      </li>
+    </ol>
+  </main>
 
-<img class="animated-gif" src="https://i.gifer.com/Kfq7.gif" width="283px" height="170.px" alt="Death Grips">
-    <li><a href="https://open.spotify.com/artist/5RADpgYLOuS2ZxDq7ggYYH">Death Grips</a></li>
-
-<img class="animated-gif" src="https://64.media.tumblr.com/17594328b6cc87d5498bf37fa6f171a6/eb4c7f3442372515-78/s540x810/7f8963564b976621098af1b862ae5df654e5d32c.gif" width="283px" height="170.px" alt="Björk">
-    <li><a href="https://open.spotify.com/artist/7w29UYBi0qsHi5RTcv3lmA">Björk</a></li>
-
-<img class="animated-gif" src="https://i.gifer.com/Vdp6.gif" width="283px" height="170.px" alt="The Strokes">
-    <li><a href="https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V">The Strokes</a></li>
-
-<img class="animated-gif" src="https://media1.tenor.com/m/_HbXA31p6XUAAAAd/caifanes.gif" width="283px" height="170.px" alt="Caifanes">
-    <li><a href="https://open.spotify.com/artist/1GImnM7WYVp95431ypofy9">Caifanes</a></li>
-
-   </ol>
-   
-  
-
-
-
-<ul style="list-style-type: none;">
+  <ul style="list-style-type: none;">
     <li><a href="../index.html">Home</a></li>
     <li><a href="./films.html">Films</a></li>
     </ul> 
 
-    </main>
-    <footer>
-      <p2> Copyright 2024</p2>
-   </footer>
-     
-  </body>
-</html> 
+  <footer>
+    <p2> Copyright 2024</p2>
+  </footer>
+</body>
+</html>
+

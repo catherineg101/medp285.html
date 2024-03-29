@@ -1,28 +1,27 @@
-body{
-
-	text-align: center;
-	font-family: monospace;
-	font-style: bold;
-	width:99%; height: 100%;
-  	background-image: linear-gradient(cornflowerblue, orchid, cornflowerblue);
-	
-
+body {
+  margin: 0;
+      padding: 0;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: bold;
+  width: 99%;
+  height: 100%;
+  background-image: linear-gradient(cornflowerblue, orchid, cornflowerblue);
 }
 
+a {
+  display: inline-block; 
+  width: 100px;
+  margin: 3em;
+  box-sizing: border-box;
+  border-radius: 10px 75px;
+  text-align: center;
+}
 
-a{  
-    width: 100px; 
-    margin: 3em;
-    box-sizing: border-box;
-    border-radius: 10px 75px;
-        text-align:center;
-    }
-
-
-a:hover{
-    cursor: pointer;
-    background-color: #eb3eff;
-  }
+a:hover {
+  cursor: pointer;
+  background-color: #eb3eff;
+}
 
 a:active{
   text-decoration-line: underline overline;
@@ -33,85 +32,73 @@ a:visited {
   text-decoration: none;
 }
 
-
-h1{ 
-text-align: center;
-    color: lightcoral;
+h1 {
+      text-align: center;
+      color: white;
       background-color: black;
       padding: 2%;
       margin-bottom: 1%;
       margin-top: 1%;
-      border-top: dotted; 1px;
+      border-top: dotted;
       border-bottom: dotted 3px;
+      
     }
 
+    h2 {
 
-    h2{ 
-
-   	width: 15rem;
-	height: 2rem;
-	text-align: center;
-	
-      color: orchid;
-      background-color: midnightblue;
+      width: 15rem;
+      height: 2rem;
+      text-align: center;
+      color: white;
+      background-color: black;
       padding: 2%;
       margin-bottom: 1%;
       border-top: dotted 5px;
       border-bottom: dotted 5px;
+    }
+
+    p {
+      margin: 1px;
+      padding: 1%;
+      color: papayawhip;
+      font-size: 25px;
+    }
+
+dl {
+  color: papayawhip;
+  font-size: 25px;
+  text-align: left;
 }
 
-p{ 
-   margin: 1px;
-   padding: 1%;
-   margin-bottom: 2%;
-    float: right;
-    color: papayawhip;
-font-size: 25px;
-
+li {
+  color: white;
+  padding: 1%;
+  border: 3px double;
+  border-top: dotted 5px;
+  margin: 0 auto; 
+  display: inline-block;
+  border-radius: 75px 75px;
 }
-
-dl{
-	color: papayawhip;
-	font-size: 25px;
-	text-align:left;
-}
- 
-    
-    li{   
-    color: white;
-    padding: 1%;
-    border: 3px double;
-    border-top: dotted 5px;
-margin:0 42.5% 0;
- display: inline-block;
-      border-radius: 75px 75px; 
-	
-     
-}
-
-
-
 
 footer {
-    background-color: black;
-    color: pink;
-    text-align: center;
-    padding: 2%; 
-    bottom: 0;
-    width: 95%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 2%;
+  bottom: 0;
+  width: 95%;
 }
 
-.intro{
-	float: inline-start;
-	margin:0 43% 0;
+.intro { 
+  margin: 0 auto; 
 }
 
-#logo{
-	width: 15rem; height: 5rem;
-	
+#logo {
+  width: 15rem;
+  height: 5rem;
 }
 
-.animated-gif{
-	width: 280px;
-	height: 180px;
-]
+.animated-gif {
+  width: 280px;
+  height: 180px;
+}
