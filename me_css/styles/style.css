@@ -34,15 +34,11 @@ a:visited {
 }
 
 h1 {
-      text-align: center;
       color: white;
-      background-color: black;
+       background-color: black;
       padding: 2%;
-      margin-bottom: 1%;
-      margin-top: 1%;
-      border-top: dotted;
-      border-bottom: dotted 3px;
-      
+      text-align: center;
+      padding: 20px 0;      
     }
 
     h2 {
