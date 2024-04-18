@@ -1,0 +1,107 @@
+
+body, h1, p, nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+
+.header {
+    background-color: mistyrose;
+    color: black;
+    padding: 20px;
+}
+
+
+body {
+    background: lightcoral;
+    font-size: 20px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+nav a.active {
+    font-weight: bold;
+    color: darkblue;
+}
+
+
+nav a:hover {
+    color: hotpink;
+    background-color: lightgray;
+    transition: all 0.3s ease;
+
+}
+
+
+.doc img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+
+.doc img:hover {
+    transform: scale(1.1);
+}
+
+
+main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+
+.main-page-link:hover {
+    background-color: dodgerblue; 
+    color: white; 
+}
+
+
+.main-page-link:active {
+    background-color: darkgray; 
+    color: white; 
+}
+
+
+/* Responsive adjustments */
+@media only screen and (max-width: 800px) {
+    body {
+        background: lightblue;
+        font-size: 34px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background: lightseagreen;
+        font-size: 20px; /* Change to pixels or another appropriate unit */
+    }
+}
+
