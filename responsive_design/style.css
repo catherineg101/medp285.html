@@ -1,0 +1,146 @@
+
+body, h1, p, nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+
+.header {
+    background-color: mistyrose;
+    color: black;
+    padding: 20px;
+}
+
+
+body {
+    background: lightcoral;
+    font-size: 20px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+}
+
+
+nav a.active {
+    font-weight: bold;
+    color: darkblue;
+}
+
+
+nav a:hover {
+    color: hotpink;
+    background-color: lightgray;
+    transition: all 0.3s ease;
+
+}
+
+
+.doc img {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.doc img:hover {
+    transform: scale(1.1);
+}
+
+
+
+main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
+    gap: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+}
+main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+footer {
+    margin-top: 20px; 
+    text-align: center;
+}
+.main-page-link {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+.main-page-link:hover {
+    background-color: royalblue; 
+}
+
+.main-page-link:active {
+    background-color: azure; 
+}
+
+.column {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex; 
+    flex-direction: column; 
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    body {
+        background: lightblue;
+        
+    }
+
+    
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background: lightseagreen;
+        
+    }
+}
+
