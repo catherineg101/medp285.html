@@ -55,11 +55,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     const pics = [
-        "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2b48a50e-b769-46e8-bdc1-a599d4a607f9/d4ljdlu-157185f9-430c-4dc4-953c-2e60aa4928e7.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJiNDhhNTBlLWI3NjktNDZlOC1iZGMxLWE1OTlkNGE2MDdmOVwvZDRsamRsdS0xNTcxODVmOS00MzBjLTRkYzQtOTUzYy0yZTYwYWE0OTI4ZTcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.42GfC6pFjBsBtj_qOFBi40-Em63a-xtNPwmzV2e2yr8",
-        "https://www.pngall.com/wp-content/uploads/2016/04/Amy-Winehouse-Free-Download-PNG.png",
+        "https://static.thenounproject.com/png/21667-200.png",
+        "https://static.thenounproject.com/png/1499460-200.png",
         "https://i.pinimg.com/originals/3f/ad/96/3fad96679cc636dc6cb1a8334d637c04.png",
         "https://www.pngall.com/wp-content/uploads/2016/04/Amy-Winehouse.png",
-        "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ab8e8b57504521.5a2ec88f4379b.png",
+        "https://static.thenounproject.com/png/21659-200.png",
         "https://www.pngall.com/wp-content/uploads/2016/04/Amy-Winehouse-PNG-Picture.png"
     ];
 
