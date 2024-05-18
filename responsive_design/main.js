@@ -54,22 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    const pics = [
-        "https://static.thenounproject.com/png/21667-200.png",
-        "https://static.thenounproject.com/png/1499460-200.png",
-        "https://i.pinimg.com/originals/3f/ad/96/3fad96679cc636dc6cb1a8334d637c04.png",
-        "https://www.pngall.com/wp-content/uploads/2016/04/Amy-Winehouse.png",
-        "https://static.thenounproject.com/png/21659-200.png",
-        "https://www.pngall.com/wp-content/uploads/2016/04/Amy-Winehouse-PNG-Picture.png"
-    ];
-
-    function updateImage() {
-        document.getElementById("amy_image").innerHTML = '<img src="' + pics[date] + '">';
-    }
-
-    updateImage(); 
-});
-
+    
 
 
 
