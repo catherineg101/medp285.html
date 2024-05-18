@@ -2,26 +2,26 @@ document.addEventListener("DOMContentLoaded", function () {
     let date = new Date().getDay();
     let hour = new Date().getHours();
 
-    function setDayColor(day) {
-    switch(day) {
-        case 0: 
-            return 'lightcoral';
-        case 1: 
-            return '#FADA5B'; 
-        case 2: 
-            return '#FA5B5B'; 
-        case 3: 
-            return 'royalblue'; 
-        case 4: 
-            return 'green'; 
-        case 5: 
-            return 'orange'; 
-        case 6: 
-            return 'purple'; 
-        default: 
-            return 'white'; 
+    function setDayColor(dayOfWeek) {
+        switch(dayOfWeek) {
+            case 0: 
+                return 'lightcoral';
+            case 1: 
+                return '#FADA5B'; 
+            case 2: 
+                return '#FA5B5B'; 
+            case 3: 
+                return 'royalblue'; 
+            case 4: 
+                return 'green'; 
+            case 5: 
+                return 'orange'; 
+            case 6: 
+                return 'purple'; 
+            default: 
+                return 'white'; 
+        }
     }
-}
 
     document.body.style.background = setDayColor(date);
 
@@ -69,6 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     updateImage(); 
 });
+
 
 
 
